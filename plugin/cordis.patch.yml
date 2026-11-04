@@ -1,0 +1,4 @@
+- insert:
+    - id: career-skills
+      name: dsh-career-skills
+      config: {}
