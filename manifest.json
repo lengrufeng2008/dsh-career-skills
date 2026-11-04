@@ -1,0 +1,26 @@
+[
+  {
+    "name": "career",
+    "description": "Route a job-search request to the right DSH career skill. Use when the user pastes a job description, asks whether a role fits, wants a CV or cover letter tailored, or needs interview preparation. Loads job-fit, resume-tailor, or interview-prep.",
+    "whenToUse": "",
+    "dir": "career"
+  },
+  {
+    "name": "interview-prep",
+    "description": "Prepare for a specific job interview. Research the company and role, build a STAR+R story bank from the user's real experience, map likely questions to stories, draft questions to ask, and produce a time-blocked plan. Use when the user has an interview scheduled or asks for interview prep.",
+    "whenToUse": "",
+    "dir": "interview-prep"
+  },
+  {
+    "name": "job-fit",
+    "description": "Evaluate a job description against the user's CV and decide whether it is worth applying to. Scores fit 1-5, checks liveness and hard dealbreakers, maps must-have requirements to evidence, estimates compensation, and flags posting risks. Use when the user pastes a job or asks \"should I apply\", \"is this a fit\", or \"score this role\".",
+    "whenToUse": "",
+    "dir": "job-fit"
+  },
+  {
+    "name": "resume-tailor",
+    "description": "Tailor a CV, resume, or cover letter to a specific job description without inventing anything. Extracts the JD's requirements, maps them to real evidence, rewrites the summary and bullets for ATS and the recruiter's six-second scan, and marks missing facts. Use when the user wants a tailored CV, cover letter, or application answers.",
+    "whenToUse": "",
+    "dir": "resume-tailor"
+  }
+]
