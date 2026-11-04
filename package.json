@@ -1,0 +1,31 @@
+{
+  "name": "dsh-career-skills",
+  "version": "0.1.0",
+  "description": "Job-search skills for DeepSeek Harness: evaluate a role, tailor a CV, and prepare for the interview. Native, local-first, no scripts or auto-submit.",
+  "type": "module",
+  "exports": {
+    ".": "./plugin/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "plugin",
+    "skills",
+    "manifest.json",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./plugin/cordis.patch.yml"
+    }
+  },
+  "keywords": ["dsh", "deepseek-harness", "skills", "career", "jobs", "resume", "interview"],
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}
